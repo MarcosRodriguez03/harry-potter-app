@@ -9,7 +9,7 @@ const ModalComponent = (
     }
 ) => {
     return (
-        <div className=' w-screen h-screen bg-[#0000005e] flex justify-center items-center '>
+        <div className=' absolute inset-0 z-50 w-screen h-screen bg-[#0000005e] flex justify-center items-center '>
             <div className='w-[700px] h-[full] rounded-lg border-[#ECBF77] border-[2px]  bg-black py-5 px-5' >
 
                 <div className=' flex justify-end '>

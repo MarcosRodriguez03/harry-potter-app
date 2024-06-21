@@ -25,7 +25,8 @@ export default function Home() {
 
   return (
     <div className="hideBar min-h-screen">
-      <div className={`fixed ${hideOpenModal}`}>
+
+      <div className={` fixed z-50  ${hideOpenModal}`}>
         <ModalComponent characterInfo={clickedCharacter} setHideOpenModal={setHideOpenModal}></ModalComponent>
       </div>
 
@@ -44,6 +45,9 @@ export default function Home() {
           Harry Potter Directory
         </p>
       </div>
+
+
+
 
 
       <div className=" w-[80%] mx-auto grid grid-cols-5 gap-10">
